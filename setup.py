@@ -1,15 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="LZ",
-    version="0.1",
+    name='LZ',
+    version='1.0',
     packages=find_packages(),
-    description="Gives sudo power to specific user ID.",
-    author="YourName",
-    author_email="your@email.com",
+    description='Custom sudo UID manager',
+    author='Team Zyro',
+    author_email='support@teamzyro.com',
     install_requires=[],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
-    ],
+    zip_safe=False
 )
